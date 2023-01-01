@@ -3,9 +3,9 @@ const { join } = require('path');
 
 module.exports = {
   Mode: 'jit', 
-  content: [
-    join(__dirname, 'pages/**/*.{js,ts,jsx,tsx}'),
-    join(__dirname, 'components/**/*.{js,ts,jsx,tsx)'),
+  content: [// tailwind를 사용할 경로들을 입력
+     "./pages/**/*.{js,ts,jsx,tsx}",
+    "./components/**/*.{js,ts,jsx,tsx}",
   ],
   darkMode:'class',
   theme: {
